@@ -9,6 +9,8 @@ epublib-core/.settings
 epublib-tools/.settings/
 epublib-core/foo.zip
 
+target/
+
 # IntelliJ ignores
 .idea/
 *.iml

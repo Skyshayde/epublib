@@ -55,9 +55,9 @@
 	</distributionManagement>
 
 	<scm>
-		<url>http://github.com/positiondev/epublib</url>
-		<connection>scm:git:https://positiondev@github.com/positiondev/epublib.git</connection>
-		<developerConnection>scm:git:https://positiondev@github.com/positiondev/epublib.git</developerConnection>
+		<url>http://github.com/psiegman/epublib</url>
+		<connection>scm:git:https://positiondev@github.com/psiegman/epublib.git</connection>
+		<developerConnection>scm:git:https://psiegman@github.com/psiegman/epublib.git</developerConnection>
 	</scm>
 
 	<build>

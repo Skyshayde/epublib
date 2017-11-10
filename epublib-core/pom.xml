@@ -18,6 +18,14 @@
 		<relativePath>../epublib-parent/pom.xml</relativePath>
   	</parent>
 
+	<licenses>
+		<license>
+			<name>LGPL</name>
+			<url>http://www.gnu.org/licenses/lgpl.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
 	<dependencies>
 		<dependency>
 		    <groupId>net.sf.kxml</groupId>

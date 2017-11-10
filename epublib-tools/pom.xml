@@ -10,7 +10,7 @@
 	<description>A java library for reading/writing/manipulating epub files</description>
 	<url>http://www.siegmann.nl/epublib</url>
 	<inceptionYear>2009</inceptionYear>
-	
+
 	<parent>
 		<groupId>com.positiondev.epublib</groupId>
 		<artifactId>epublib-parent</artifactId>
@@ -18,7 +18,15 @@
         <relativePath>../epublib-parent/pom.xml</relativePath>
   	</parent>
 
-	<dependencies>
+  <licenses>
+    <license>
+      <name>LGPL</name>
+      <url>http://www.gnu.org/licenses/lgpl.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <dependencies>
 		<dependency>
 			<groupId>com.positiondev.epublib</groupId>
 			<artifactId>epublib-core</artifactId>

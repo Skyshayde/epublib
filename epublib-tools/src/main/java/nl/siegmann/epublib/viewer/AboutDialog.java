@@ -38,7 +38,7 @@ public class AboutDialog extends JDialog {
 		});
 		super.getRootPane().setDefaultButton(close);
 		add(new JLabel("epublib viewer"));
-		add(new JLabel("http://www.siegmann.nl/epublib"));
+		add(new JLabel("https://github.com/positiondev/epublib"));
 		add(close);
 		super.addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent e) {

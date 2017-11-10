@@ -4,7 +4,7 @@ crossPaths := false
 
 name := "epublib-core"
 
-organization := "nl.siegmann.epublib"
+organization := "com.positiondev.epublib"
 
 version := "3.1"
 

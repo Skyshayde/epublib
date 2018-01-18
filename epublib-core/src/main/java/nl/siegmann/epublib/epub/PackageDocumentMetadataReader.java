@@ -67,8 +67,8 @@ class PackageDocumentMetadataReader extends PackageDocumentBase {
 	 * @param metadataElement
 	 * @return
 	 */
-	private static Map<QName, String> readOtherProperties(Element metadataElement) {
-		Map<QName, String> result = new HashMap<QName, String>();
+	private static Map<String, String> readOtherProperties(Element metadataElement) {
+		Map<String, String> result = new HashMap<String, String>();
 		
 		NodeList metaTags = metadataElement.getElementsByTagNameNS(NAMESPACE_OPF, OPFTags.meta);
 		for (int i = 0; i < metaTags.getLength(); i++) {
@@ -77,7 +77,7 @@ class PackageDocumentMetadataReader extends PackageDocumentBase {
 			if (property != null) {
 				String name = property.getNodeValue();
 				String value = metaNode.getTextContent();
-				result.put(new QName(name), value);
+				result.put(name, value);
 			}
 		}
 		
